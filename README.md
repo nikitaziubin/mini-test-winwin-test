@@ -13,4 +13,4 @@ To test the Login:  curl -X POST http://localhost:8080/api/auth/login -H "Conten
 
 To test process  curl -X POST http://localhost:8080/api/process -H "Authorization: Bearer <token>" -H "Content-Type: application/json" -d "{"text":"hello"}"
 
-<token> should be taken from the result of the login call. 
+token should be taken from the result of the login call. 
